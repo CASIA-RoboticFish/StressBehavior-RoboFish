@@ -1,7 +1,7 @@
 
 # Robotic Fish Autonomous System
 
-![Robotic Fish System](https://github.com/CASIA-RoboticFish/StressBehavior-RoboFish/blob/main/roboticfish.PNG?raw=true)
+<img src="https://github.com/CASIA-RoboticFish/StressBehavior-RoboFish/blob/main/roboticfish.PNG?raw=true" alt="Robotic Fish System" width="50%" />
 
 
 ## 🌊 System Overview
