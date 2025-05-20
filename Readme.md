@@ -1,7 +1,7 @@
 
 # Robotic Fish Autonomous System
 
-<img src="roboticfish.png" alt="Robotic Fish System" width="300">
+<img src="[roboticfish.png](https://github.com/CASIA-RoboticFish/StressBehavior-RoboFish/blob/main/roboticfish.PNG?raw=true)" alt="Robotic Fish System" width="300">
 
 
 ## 🌊 System Overview
