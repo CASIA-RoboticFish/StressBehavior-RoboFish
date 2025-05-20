@@ -98,22 +98,12 @@ Firmware_Sensor_Processing/
 
 ```mermaid
 graph TD
-    A[Stereo Cameras] --> B[Color Segmentation]
+    A[Cameras] --> B[Color Segmentation]
     C[Pressure Sensors] --> D[Signal Filtering]
     B --> E[Threat Coordinate Calculation]
     D --> E
     E --> F[RF Transmission]
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 
