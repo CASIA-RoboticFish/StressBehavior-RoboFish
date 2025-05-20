@@ -118,7 +118,7 @@ graph TD
 |-----------------------|---------------------------------------|---------------------|
 | RF Module #1          | Xavier Data Receiver                  | `/dev/ttyUSB1` @ 9600bps |
 | RF Module #2          | STM32 Command Transmitter             | `/dev/ttyUSB0` @ 19200bps |
-| Host Computer         | Control Server                        | Ubuntu 20.04 LTS    |
+| Host Computer         | Control Server                        |     |
 
 ### 📂 Code Structure
 
