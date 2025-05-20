@@ -110,7 +110,7 @@ graph TD
 
 
 
-## ➡️ Perception & Sensor Processing (/Firmware_Sensor_Processing)
+## ➡️ Motion Control System (/DecisionAndMotionControl)
 
 ### 🛠 Hardware Requirements
 
