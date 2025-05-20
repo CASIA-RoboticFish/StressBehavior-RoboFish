@@ -150,7 +150,7 @@ class RFLink():
         if self._receive_state == Recstate.WAITING_FF:
             if rx_data == b'\xff':
                 self._receive_state = Recstate.SENDER_ID
-                #self._checksum = ord(rx_data)  # 转换为ASCII码
+                #self._checksum = ord(rx_data)  
                 self.message = b''
                 self.length = 0
                 self._byte_count = 0
