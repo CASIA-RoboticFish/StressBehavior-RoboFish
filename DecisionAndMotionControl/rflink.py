@@ -131,7 +131,7 @@ class RFLink():
         self._byte_count = 0
         self.MY_ID = b'\x11'
         self.FRIEND_ID = b'\x33'  #Xavier 的ID
-        self.sensor_num = 6#使用全部的传感器
+        self.sensor_num = 6
         self.cmd = 0
 
     def RFLink_receivedata(self, rx_data):
@@ -214,7 +214,7 @@ class RFLink():
         if self._receive_state == Recstate.WAITING_FF:
             if rx_data == b'\xff':
                 self._receive_state = Recstate.SENDER_ID
-                #self._checksum = ord(rx_data)  # 转换为ASCII码
+                #self._checksum = ord(rx_data) 
                 self.message = b''
                 self.length = 0
                 self._byte_count = 0
@@ -258,7 +258,7 @@ class RFLink():
 
         #########################################################################################################
 
-    def analysis_data(self,with_cmd = 0):  # 分析串口接收到的rflink数据,更新robosharkstate的状态
+    def analysis_data(self,with_cmd = 0):  
         """
         para: with_cmd=1, the message contains a command for collecting data from both sides
             with_cmd=0, no command, directly store the data
