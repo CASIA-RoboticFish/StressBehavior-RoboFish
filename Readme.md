@@ -25,7 +25,7 @@ This repository contains the complete codebase for our bio-inspired robotic fish
 
 
 
-## Perception & Sensor Processing (/Firmware_Sensor_Processing)
+## ➡️ Perception & Sensor Processing (/Firmware_Sensor_Processing)
 
 ### 🛠 Hardware Requirements
 
