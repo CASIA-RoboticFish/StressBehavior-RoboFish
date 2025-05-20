@@ -214,7 +214,7 @@ class SignalGenerator(QThread):
     # Send motion commands to robotic fish and log its status
     def single_run(self,cur_state,danger_drec = 0,amp=80,fre = 1):
         if self.vision_flag == 1:
-            self.action_set = -1*self.gene_action_set(cur_state=cur_state,danger_drec = danger_drec,amp=amp,fre = fre)
+            self.action_set = self.gene_action_set(cur_state=cur_state,danger_drec = danger_drec,amp=amp,fre = fre)
         else:
             self.action_set = self.gene_action_set(cur_state=cur_state,danger_drec = danger_drec,amp=amp,fre = fre)
 
