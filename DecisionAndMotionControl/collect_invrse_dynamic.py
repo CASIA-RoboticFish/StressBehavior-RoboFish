@@ -319,7 +319,7 @@ class SignalGenerator(QThread):
                     # Randomly generate the states of sliding, acceleration, and deflection direction, and perform three samples based on statistical probability
                     for t in range(2):
                         prob = [0.2,0.3,0.5]
-                        #在这改后续的动作
+                
                         results = [self.ACTION_STATE.TURNNING,self.ACTION_STATE.SPEED_UP]
                         #results = [self.ACTION_STATE.TURNNING,self.ACTION_STATE.TURNNING]
                         cumulative_probabilities = [sum(prob[:i+1]) for i in range(len(prob))] # Cumulative probability list
