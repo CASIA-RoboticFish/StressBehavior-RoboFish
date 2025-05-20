@@ -211,7 +211,7 @@ class SignalGenerator(QThread):
             action_set = np.zeros(self.action_len)
         return action_set
 
-    #向机器鱼发送动作执行命令，同时对机器鱼的状态进行存储
+    # Send motion commands to robotic fish and log its status
     def single_run(self,cur_state,danger_drec = 0,amp=80,fre = 1):
         if self.vision_flag == 1:
             self.action_set = -1*self.gene_action_set(cur_state=cur_state,danger_drec = danger_drec,amp=amp,fre = fre)
@@ -246,7 +246,7 @@ class SignalGenerator(QThread):
         # self.pos = np.zeros((1,3))
         # self.pos_pre = self.pos
 
-        # now = datetime.now()  # 获得当前时间
+        # now = datetime.now()  
         # timestr = now.strftime("%m%d%H%M%S")
         # dis_name = self.save_data_dr+'inverse_dyna_state_'+timestr+'.txt'
         # np.savetxt(dis_name, self.inverse_dyna_dataset[1:,:],fmt="%.6f", delimiter=",")
